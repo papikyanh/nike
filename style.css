@@ -1,0 +1,690 @@
+/* RESET */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* default font */
+}
+
+body * {
+  font-family: inherit;
+}
+
+/* TEXT EXAMPLE */
+h1 {
+  font-size: 50px;
+  font-family: Nike, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h2 p {
+  font-size: 50px;
+  font-family: Nike, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-size: 50px;
+}
+.container-top {
+  height: 50px;
+  width: 1440px;
+  background-color: black;
+  text-align: center;
+}
+.container-top p {
+  font-size: 14px;
+  padding-top: 12px;
+  color: white;
+}
+.container-top i {
+  color: white;
+  font-weight: 0.2;
+  padding-left: 1350px;
+  font-size: 16px;
+  vertical-align: middle;
+  text-decoration: none;
+  cursor: pointer;
+}
+.markdowns span {
+margin-left: 20px;
+}
+.container-second {
+  height: 41px;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-color: #e5e5e5;
+  border-style: solid;
+  border-width: 0.5px;
+}
+.container-second .left-cards {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  border-right: 0.5px;
+  border-style: solid;
+  border-color: #e5e5e5;
+}
+.container-second .left-cards .NikePlus-card p {
+  font-size: 18px;
+  padding: 11px 8px;
+  margin-right: 13px;
+  color: #757575;
+}
+.container-second .left-cards .jordan-card span {
+  font-size: 30px;
+  padding: 8px 30px;
+  display: inline-block;
+  color: #757575;
+}
+.container-second .left-cards .hurley-card span {
+  font-size: 18px;
+  padding: 11px 28px;
+  display: inline-block;
+  color: #757575;
+}
+.container-second .left-cards .converse-card span {
+  font-size: 18px;
+  padding: 11px 28px;
+  display: inline-block;
+  color: #757575;
+}
+.container-second .right-cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 40px;
+  width: auto;
+  }
+.container-second .right-cards .join-account p {
+  font-size: 16px;
+  margin-top: 11px;
+  padding-left: 337px;
+  padding-right: 50px;
+  letter-spacing: 1px;
+  text-align: left;
+  align-content: stretch;
+  color: #757575;
+  }
+.container-second .right-cards .Help p {
+   font-size: 16px;
+   margin-top: 11px;
+   padding-right: 50px;
+   color: #757575;
+  }
+.container-second .right-cards .Cart span {
+   font-size: 26px;
+   padding-top: 7px;
+   display: inline-block;
+   padding-right: 50px;
+   color: #757575;
+  }
+.container-second .right-cards .location i {
+   font-size: 18px;
+   margin-top: 11px;
+   padding-right: 10px;
+   color: #757575;
+  }
+.container-second .right-cards .United-States p {
+   font-size: 16px;
+   margin-top: 11px;
+   padding-right: 25px;
+   padding-left: 5px;
+   color: #757575;
+  }
+.container-third {
+  height: 70px;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 0.5px;
+  border-color: #e5e5e5;
+  border-style: solid;
+  }
+.container-third .left-card {
+  padding-right: 25px;
+  color: #757575;
+}
+.container-third .left-card .Swoosh span {
+  font-size: 30px;
+  display: inline-block;
+  margin-top: 14px;
+  padding-left: 35px;
+  color: #101010;
+  cursor: pointer;
+}
+.Navigation-Menu-card {
+  width: 450px;
+  height: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Navigation-Menu-card .New-Releases p {
+  font-size: 16px;
+  font-family: Nike, "Helvetica Neue", Helvetica;
+  line-height: 1.5;
+  letter-spacing: .5px;
+  vertical-align: middle;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  color: #101010;
+  height: 48px;
+  width: auto;
+}
+.search-card {
+  width: 180px;
+  height: 35px;
+  align-items: center;
+  border-width: 0.1px;
+  border-style: solid;
+  border-color: #e5e5e5;
+  margin-right: 20px;
+  margin-top: 17px;
+}
+.search-card i {
+  color: #272727;
+  padding-top: 10px;
+  padding-left: 10px;
+  text-decoration-style: 90%;
+}
+.search-card p {
+  color: #6d6d6d;
+  font-size: 14px;
+  display: inline-block;
+}
+.header-card {
+ width: 1300px;
+ height: 640px;
+ background-image: url(../images/desktop/product5.jpg);
+ background-repeat: no-repeat;
+ margin-left: 65px;
+}
+.header-card .card {
+  margin-left: 85px;
+  width: 100px;
+  height: auto;
+}
+.card h1 {
+ font-size: 54px;
+ font-weight: bold;
+ margin-left: 85px;
+ margin-top: 60px;
+ color: #ffffff;
+ position: absolute;
+ top: 160px;
+ left: 15px;
+}
+.card p {
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 1.6;
+  position: absolute;
+  top: 330px;
+  left: 110px;
+}
+.shop-button {
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+  position: absolute;
+  top: 400px;
+  left: 110px;
+  cursor: pointer;
+}
+.shop-button .shop p {
+  color: #101010;
+  font-size: 14px;
+  position: absolute;
+  top: -10px;
+  left: 3px;
+}
+/* Featured section */
+.grey-box {
+  width: 1300px;
+  height: 70px;
+  background-color: #e5e5e5;
+  margin-top: 10px;
+  margin-left: 65px;
+}
+.container h3 {
+  font-size: 24px;
+  color: #101010;
+  margin-left: 65px;
+  margin-top: 80px;
+}
+.container .workout-card {
+ width: 1300px;
+ height: 540px;
+ background-image: url(../images/desktop/product_1.jpg);
+ background-repeat: no-repeat;
+ margin-left: 65px;
+}
+.container .workout-card h1 {
+ font-size: 40px;
+ font-weight: bold;
+ color: #ffffff;
+ position: relative;
+ top: 370px;
+ left: 70px;
+}
+.workout-card p {
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 1.6;
+  position: relative;
+  top: 370px;
+  left: 70px;
+}
+.workout-card .shop-workout-button {
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+  position: relative;
+  top: 390px;
+  left: 70px;
+}
+.shop-workout-button .shop p {
+  color: #101010;
+  font-size: 14px;
+  position: absolute;
+  top: -10px;
+  left: 3px;
+  cursor: pointer;
+}
+/* must-haves section  */
+.container-season {
+  width: 1300px;
+  height: auto;
+  margin-left: 65px;
+}
+.container-season h3 {
+  font-size: 24px;
+  color: #101010;
+  margin-top: 70px;
+}
+.must-haves-cards {
+  height: auto;
+  display: flex;
+  justify-content:space-between;
+  margin-top: 20px;
+}
+.container-season .card1 p {
+  color: #ffffff;
+  font-size: 18px;
+  position: relative;
+  bottom: 130px;
+  left: 70px;
+}
+.container-season .card1 .shop-must-haves1 {
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+  position: relative;
+  Bottom: 110px;
+  left: 70px;
+}
+.shop-must-haves1 .shop p {
+  color: #101010;
+  font-size: 14px;
+  position: absolute;
+  top: -8px;
+  left: 3px;
+  cursor: pointer;
+}
+/*shop-must-haves2 */
+.container-season .card2 p {
+  color: #101010;
+  font-size: 18px;
+  position: relative;
+  bottom: 160px;
+  left: 50px;
+}
+.container-season .card2 .shop-must-haves2 {
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #101010;
+  position: relative;
+  Bottom: 140px;
+  left: 50px;
+}
+.shop-must-haves2 .shop p {
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  top: -8px;
+  left: 3px;
+  cursor: pointer;
+}
+/* shop-must-haves3 */
+.container-season .card2 .shop-must-haves3 {
+  width: 85px;
+  height: 30px;
+  border-radius: 15px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #101010;
+  position: relative;
+  Bottom: 170px;
+  left: 135px;
+}
+.shop-must-haves3 .explore p {
+  color: #ffffff;
+  font-size: 14px;
+  position: absolute;
+  top: -8px;
+  left: 3px;
+  cursor: pointer;
+}
+/* True Fans Section */
+.fans-container .grey-box-fans {
+  width: 1300px;
+  height: 15px;
+  background-color: #e5e5e5;
+  margin-top: 10px;
+  margin-left: 65px;
+}
+.fans-container h3 {
+  font-size: 24px;
+  color: #101010;
+  margin-left: 65px;
+}
+.fans-container .fans-card {
+ width: 1300px;
+ height: 600px;
+ background-image: url(../images/desktop/product_9.jpg);
+ background-repeat: no-repeat;
+ margin-left: 65px;
+}
+.fans-container h1 {
+ font-size: 56px;
+ font-weight: bold;
+ margin-left: 85px;
+ color: #ffffff;
+ position: relative;
+ top: 400px;
+ left: -35px;
+}
+.fans-container .fans-card p {
+  color: #ffffff;
+  font-size: 11px;
+  line-height: 1.6;
+  position: relative;
+  top: 400px;
+  left: 55px;
+}
+.fans-container .shop-fans-button {
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+  position: relative;
+  top: 410px;
+  left: 55px;
+  cursor: pointer;
+}
+.fans-container .shop p {
+  color: #101010;
+  font-size: 14px;
+  position: absolute;
+  top: -10px;
+  left: 3px;
+}
+/* Basketball Section */
+ .container-basketball {
+  width: 1300px;
+  height: auto;
+  margin-left: 65px;
+}
+.container-basketball h3 {
+  font-size: 24px;
+  color: #101010;
+  margin-top: 70px;
+}
+.basketball-cards {
+  height: auto;
+  display: flex;
+  justify-content:space-between;
+  margin-top: 20px;
+}
+.basketball-cards .card1 p {
+  color: #ffffff;
+  font-size: 18px;
+  position: relative;
+  bottom: 130px;
+  left: 70px;
+}
+.container-basketball .card1 .basketball-shop1 {
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+  position: relative;
+  Bottom: 110px;
+  left: 70px;
+}
+.basketball-shop1 .shop p {
+  color: #101010;
+  font-size: 14px;
+  position: absolute;
+  top: -8px;
+  left: 3px;
+  cursor: pointer;
+}
+/*Basketball Section2 */
+.basketball-cards .card2 p {
+  color: #ffffff;
+  font-size: 18px;
+  position: relative;
+  bottom: 130px;
+  left: 70px;
+}
+.basketball-shop2 {
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: #ffffff;
+  position: relative;
+  Bottom: 110px;
+  left: 70px;
+}
+.basketball-shop2 .shop p {
+  color: #101010;
+  font-size: 14px;
+  position: absolute;
+  top: -8px;
+  left: 3px;
+  cursor: pointer;
+}
+/* Big Wins Section */
+.container-big-wins {
+ width: 1300px;
+ height: auto;
+ margin-left: 65px;
+}
+.container-big-wins h3 {
+ font-size: 24px;
+ color: #101010;
+ margin-top: 70px;
+}
+.big-wins-cards1 {
+ height: auto;
+ display: flex;
+ justify-content:space-between;
+ margin-top: 20px;
+}
+.big-wins-cards1 .card1 p {
+ color: #101010;
+ font-size: 18px;
+ margin-top: 15px;
+ cursor: pointer;
+}
+.shortcut-links {
+  width: 900px;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-left: 200px;
+  cursor: pointer;
+  color: #101010;
+  margin-bottom: 150px;
+}
+.shortcut-links h4 {
+  margin-bottom: 30px;
+}
+.shortcut-links a {
+  color: #8d8d8d;
+  text-decoration: none;
+  line-height: 2;
+}
+/* Footer */
+.nav-footer {
+  width: 1440px;
+  height: 320px;
+  background-color: #101010;
+  vertical-align: baseline;
+}
+.nav-links {
+  height: 150px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-top: 40px;
+}
+.left-links a {
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 2;
+  text-transform: uppercase;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Nike, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+.get-help a {
+  color: #7e7e7e;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 2.2;
+}
+.about-nike a {
+  color: #7e7e7e;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 2.2;
+}
+.social-icons {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-right: 48px;
+  padding-left: 560px;
+}
+.social-icons .icons-links span {
+  color: #7e7e7e;
+  padding-right: 7px;
+  cursor: pointer;
+}
+.icons-links a {
+  text-decoration: none;
+}
+.line-breack hr {
+  color: #212121;
+  display: block;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 110px;
+  border-style: solid;
+  border-width: 0.25px;
+}
+/* sub-footer */
+.sub-footer {
+  width: 100%;
+  height: 80px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.sub-footer .left-footer-cards {
+  display: flex;
+  justify-content:flex-start;
+  padding-left: 40px;
+}
+.sub-footer .left-footer-cards .location-card i {
+  font-size: 15px;
+  color: #ffffff
+}
+.sub-footer .left-footer-cards .location-card p {
+  margin-left: 20px;
+  font-size: 10px;
+  color: #ffffff;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.left-footer-cards .copyright-card {
+ padding-left: 40px;
+ text-align: justify;
+}
+.sub-footer .left-footer-cards .copyright-card i {
+ font-size: 9px;
+ color: #757575;
+}
+.sub-footer .left-footer-cards .copyright-card p {
+  font-size: 10px;
+  color: #757575;
+  margin-left: 14px;
+  margin-top: -10px;
+}
+.sub-footer .right-footer-cards {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 40px;
+}
+.right-footer-cards a {
+  font-size: 10px;
+  color: #757575;
+  margin-left: 14px;
+  margin-top: -10px;
+  cursor: pointer;
+}
